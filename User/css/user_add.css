@@ -54,3 +54,6 @@ body{
     position: fixed;
     bottom: 0;
 }
+.list-group-item textarea{
+    resize: none;
+}
