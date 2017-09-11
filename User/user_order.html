@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>用户下单</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/user_common.css"/>
+    <link rel="stylesheet" href="css/user_order.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <a href="javascript:;" class="navbar-brand glyphicon glyphicon-chevron-left">下单</a>
+        </div>
+    </nav>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span class="glyphicon glyphicon-pencil"></span>
+                预约内容
+            </h3>
+        </div>
+        <div id="order-info" class="panel-body">
+            <div class="media">
+                <a class="media-left" href="javascript:;">
+                    <img class="media-object" src="img/nurse_portrait_default.png"
+                         alt="媒体对象">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">张三</h4>
+                    <small>级别：初级护工&nbsp;护龄：1年</small>
+                </div>
+                <p class="personal-intro" style="color: gray">
+                    个人简介个人简介个人简介个人简介个人简介个人简介个人简介
+                    个人简介个人简介个人简介个人简介个人简介个人简介个人简介
+                    个人简介个人简介个人简介个人简介个人简介个人简介个人简介
+                </p>
+                <a id="full-text" href="javascript:;">显示全文</a>
+            </div>
+            <br>
+            <div class="label-group">预约时长:
+                <span class="label label-default">日护</span>
+                <span class="label label-default">周护</span>
+                <span class="label label-default">月护</span>
+            </div>
+            <br>
+            <div class="label-group">预约地点:
+                <span class="label label-default">居家</span>
+                <span class="label label-default">医院</span>
+            </div>
+            <br>
+            护理需求:
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active">
+                    <a href="#help-meal" data-toggle="tab">助餐</a>
+                </li>
+                <li><a href="#help-cure" data-toggle="tab">助医</a></li>
+                <li><a href="#help-clean" data-toggle="tab">助洁</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="help-meal">
+                    <p>助餐说明...</p>
+                </div>
+                <div class="tab-pane fade" id="help-cure">
+                    <p>助医说明...</p>
+                </div>
+                <div class="tab-pane fade" id="help-clean">
+                    <p>助洁说明...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <img src="img/start_time.png" alt="开始时间"/>
+            请选择开始时间:&nbsp;
+            <input type="date" id="keyword_time_min"/>
+
+        </li>
+        <li class="list-group-item">
+            <img src="img/end_time.png" alt="结束时间"/>
+            请选择结束时间:&nbsp;
+            <input type="date" id="keyword_time_max"/>
+        </li>
+        <li class="list-group-item">
+            <img src="img/address.png" alt="地址"/>
+            <a href="#address" id="address">请选择地址</a>
+            <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+        </li>
+        <li class="list-group-item">
+            <img src="img/discount.png" alt="优惠券"/>
+            <a href="javascript:;">请选择优惠券</a>
+            <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+        </li>
+    </ul>
+    <ul class="list-group">
+        <li class="list-group-item" style="color: gray">付款方式</li>
+        <li class="list-group-item" id="service">
+            <img src="img/sercive.png" alt=""/>
+            <span>服务后支付</span>
+            <img class="pull-right" src="img/check-none.png" alt=""/>
+        </li>
+    </ul>
+    <div id="pay">
+        <div id="mask"></div>
+        <ul class="list-group">
+            <li class="list-group-item" style="background: gray;color: white">支付方式</li>
+            <li class="list-group-item pay-way">
+                <img src="img/alipay.png" alt=""/>
+                <span>支付宝</span>
+                <label class="pull-right">
+                    <input type="radio" name="payWay" id="alipay" >
+                </label>
+            </li>
+            <li class="list-group-item pay-way">
+                <img src="img/wechat.png" alt=""/>
+                <span>微信</span>
+                <label class="pull-right">
+                    <input type="radio" name="payWay" id="wechat" >
+                </label>
+            </li>
+        </ul>
+
+    </div>
+    <nav id="user-order-footer" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="navbar-header">
+            <span class="navbar-brand">应付款:￥1000</span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="pull-right"><a href="user_index_order.html" id="pull-cart">加入购物车</a></li>
+            <li class="pull-right"><a href="#pay" id="pay-now">立即付款</a></li>
+        </ul>
+    </nav>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/user_common.js"></script>
+<script src="js/user_order.js"></script>
+</body>
+</html>
