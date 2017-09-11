@@ -54,3 +54,9 @@ body{
     position: fixed;
     bottom: 0;
 }
+.list-group-item textarea{
+    resize: none;
+}
+.list-group-item .selected{
+    background: #5bc0de;
+}

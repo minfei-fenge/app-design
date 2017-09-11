@@ -37,6 +37,7 @@
 }
 /*去除点击过的链接的下划线*/
 a:focus{
+a:focus,a:hover{
     text-decoration: none;
 }
 /*修改表单控件input的字体颜色*/

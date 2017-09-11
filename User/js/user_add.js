@@ -1,19 +1,12 @@
 $(function(){
     /*上传照片*/
-    document.getElementById("upload").addEventListener("change",function(e){
+    document.getElementById("upload").addEventListener("change",function(){
         var files = this.files;
-        var img = new Image();
         var reader = new FileReader();
         reader.readAsDataURL(files[0]);
         reader.onload = function(e){
-            var mb = (e.total/1024)/1024;
             localStorage.setItem("user_add",e.target.result);
-            if(mb>= 2){
-                alert('文件大小大于2M');
-                return;
-            }
-            img.src = this.result;
-            img.style.width = "80%";
+            document.getElementById("click").src = this.result;
         };
     });
     /*保存头像*/
@@ -35,5 +28,10 @@ $(function(){
     //点击“保存”按钮：
     $("#save").on("click",function(){
 
+    });
+
+    //身体状况：
+    $(".list-group-item span").on("click",function(){
+        $(this).addClass("selected").siblings().removeClass("selected");
     });
 });
