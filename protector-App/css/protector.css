@@ -1,0 +1,44 @@
+.first-header{
+    position: relative;
+}
+.first-header ul{
+    width: 100%;
+}
+.first-header ul li:last-child{
+    float: right;
+    margin-right: 26px;
+}
+.first-header ul li:first-child,.screen-header .pager li:first-child{
+    float: left;
+}
+.be-protected{
+    margin-top: -2%;
+}
+.be-protected button{
+    height: 4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.dropdown-menu li{
+    width: 70px;
+}
+img{
+    width: 5rem;
+}
+.media-list{
+    padding: 0 3%;
+}
+.media{
+    position: relative;
+}
+.media-heading{
+    font-size: 14px;
+    margin-top: 5px;
+}
+h4 span{
+    margin-right: 10px;
+}
+.more{
+    position: absolute;
+    right: 0;
+}

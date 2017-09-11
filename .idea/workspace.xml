@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7abb253-0776-4de9-905e-21b1fe833514" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/img/welcome.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/app-design.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/circle-text1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/circle-text1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/circle-text2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/circle-text2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/circle-topic1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/circle-topic1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/circle-topic2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/circle-topic2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/first.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/first.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/first.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/jquery-1.12.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/my-function-base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/order.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/protector-App.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/protector-register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/protector-register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/protector-register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/protector-register2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/protector-register2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/protector-register2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/protector-register3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/protector-register3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/js/protector-register3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/protector.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/protector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/screen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protector-App/.idea/workspace.xml" />
+    </list>
+    <ignored path="app-design.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="app-design" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\前端练习代码\（项目）\app-design" />
+    </key>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7abb253-0776-4de9-905e-21b1fe833514" name="Default" comment="" />
+      <created>1505100601879</created>
+      <option name="number" value="Default" />
+      <updated>1505100601879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4232026" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

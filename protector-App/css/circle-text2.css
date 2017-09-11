@@ -1,0 +1,66 @@
+.first-header{
+    height: 6rem;
+}
+.first-header ul li:last-child{
+    margin-right: 26px;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+.first-header ul li:first-child,.screen-header .pager li:first-child{
+    float: left;
+}
+.first-header span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 7rem;
+}
+.circle-example{
+    text-align: center;
+}
+h4 span{
+    margin: 0 8%;
+}
+.circle-good{
+    overflow: hidden;
+    padding-right: 3%;
+}
+.circle-good .btn-default{
+    border: none;
+}
+.circle-good div{
+    float: right;
+}
+img{
+    width: 5rem;
+}
+.more{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.topic-content{
+    padding: 0 3%;
+}
+.media-list .media{
+    position: relative;
+}
+.h4, h4 {
+    font-size: 16px;
+}
+input[type="text"] {
+    width: 70%;
+    text-indent: 10px;
+    font-size: 1.5rem;
+    margin-right: 2%;
+}
+input {
+    border: 1px solid #ccc;
+    height: 2.5rem;
+}
+input[type="submit"] {
+    width: 25%;
+}
+.protector-bottom{
+    position: relative;
+}

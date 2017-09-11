@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>预约</title>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/order.css"/>
+</head>
+<body>
+    <div class="first-header">
+        <ul class="pager">
+            <li><a href="#">返回</a></li>
+        </ul>
+        <h1>预约</h1>
+    </div>
+    <div class="main-text">
+        <span>被护理人</span>
+    </div>
+    <ul class="media-list">
+        <li class="media">
+            <div class="media-body">
+                <h4 class="media-heading">姓名</h4>
+                <h4 class="media-heading"><span>性别</span><span>年龄</span></h4>
+                <h4 class="media-heading">详细地址</h4>
+            </div>
+            <div class="media-right">
+                <a href="#">
+                    <img class="media-object" src="img/1.jpg" alt="...">
+                </a>
+            </div>
+        </li>
+    </ul>
+    <div class="order-information">
+        <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
+            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+        </button>
+        <span>联系电话</span>
+    </div>
+    <div class="order-information">
+        <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
+            <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
+        </button>
+        <span>自理能力</span>
+    </div>
+    <div class="order-information">
+        <button type="button" class="btn btn-default btn-sm" aria-label="Left Align">
+            <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+        </button>
+        <span>老人身体状况</span>
+    </div>
+    <div class="main-text">
+        <span>护工</span>
+    </div>
+    <div class="add-protector">
+        <div class="add-left">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="请输入姓名" aria-describedby="basic-addon1">
+                <input type="number" class="form-control" placeholder="请输入年龄" aria-describedby="basic-addon1">
+            </div>
+            <div class="sex-left">
+                <input type="radio"/><span>男</span>
+            </div>
+            <div class="sex-right">
+                <input type="radio"/><span class="sex">女</span>
+            </div>
+        </div>
+        <div class="add-right">
+            <div class="push-img">
+                <input type="file" class="push-photo" accept="image/png,image/jpg,image/jpeg"/>
+                <a class="replay-push" onclick="$('.push-photo').click()">点击此处上传图片</a>
+            </div>
+        </div>
+    </div>
+    <div class="add-protector order-online">
+        <div class="input-group">
+            <input id="service-way" type="text" class="form-control" placeholder="请输入可服务类型" aria-describedby="basic-addon1">
+            <span id="order-way">预约方式</span>
+            <select name="" id="">
+                <option value="">面谈</option>
+                <option value="">网上预约</option>
+            </select>
+        </div>
+    </div>
+    <a class="first-header footer-next" id="order-bottom" href="protector-register2.html">
+        <h1>立即预约</h1>
+    </a>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

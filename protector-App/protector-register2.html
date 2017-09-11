@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>护工注册</title>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/protector-register2.css"/>
+</head>
+<body>
+    <div class="first-header">
+        <ul class="pager">
+            <li><a href="#">返回</a></li>
+        </ul>
+        <h1>护工注册</h1>
+    </div>
+    <div class="push-img">
+        <input type="file" class="push-photo" accept="image/png,image/jpg,image/jpeg"/>
+        <a class="replay-push" onclick="$('.push-photo').click()">点击此处上传图片</a>
+    </div>
+    <div class="protector-input">
+        <h5><span>工作年龄</span><input type="number"/></h5>
+        <h5><span>服务级别</span><input type="text"/></h5>
+        <h5><span>服务范围</span></h5>
+        <div class="btn-group" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按时间
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按地点
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按护理需求
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按老人病症
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+            </div>
+        </div>
+        <h5><span>护理技能</span><input type="text"/></h5>
+        <span id="protector-self">自我介绍</span><textarea name="" id="" cols="30" rows="5"></textarea>
+    </div>
+    <div class="first-header footer-next">
+        <a class="protector-back">上一页</a><a class="protector-next">保存</a>
+    </div>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/protector-register2.js"></script>
+</body>
+</html>

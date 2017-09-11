@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>用户登录</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="js/html5shiv.js"></script>
+</head>
+<body>
+    <div class="first-header">
+        <ul class="pager">
+            <li><a href="#">返回</a></li>
+        </ul>
+        <h1>用户登录</h1>
+    </div>
+    <div class="main-text">
+        <a href="register.html">我没有账号，马上注册&gt;&gt;</a>
+    </div>
+    <div class="input-group" id="join">
+        <input type="text" class="form-control" placeholder="请输入用户名" aria-describedby="basic-addon1">
+        <input type="password" class="form-control" placeholder="请输入密码" aria-describedby="basic-addon1">
+        <input type="text" class="input-check form-control" placeholder="请输入验证码" aria-describedby="basic-addon1">
+        <input type="button" class="checkCode code createCode" />
+        <a href="#" class="createCode">换一张</a>
+        <button id="login-right"><a href="#">验证并登录</a></button>
+    </div>
+    <a href="#" id="forget-password">忘记密码？</a><br/>
+    <div id="login-mask"></div>
+    <div id="po-up">
+        <form class="input-group">
+            <input type="text" placeholder="请输入手机号" aria-describedby="basic-addon1">
+            <button>点击发送</button>
+            <input type="text" placeholder="请输入验证码" aria-describedby="basic-addon1">
+            <button>修改密码</button>
+            <button class="change-password"><a href="first.html">立即登录</a></button>
+        </form>
+    </div>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

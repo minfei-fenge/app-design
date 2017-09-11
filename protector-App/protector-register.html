@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>护工注册</title>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/protector-register.css"/>
+</head>
+<body>
+    <div class="first-header">
+        <ul class="pager">
+            <li><a href="#">返回</a></li>
+        </ul>
+        <h1>护工注册</h1>
+    </div>
+    <div class="push-img">
+        <input type="file" class="push-photo" accept="image/png,image/jpg,image/jpeg"/>
+        <a class="replay-push" onclick="$('.push-photo').click()">点击此处上传图片</a>
+    </div>
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="请输入姓名" aria-describedby="basic-addon1">
+        <input type="number" class="input-year"/><span>年</span><input type="number"  class="input-year"/><span>月</span><input type="number" class="input-year"/><span>日</span>
+        <input type="number" id="id_card" class="form-control" placeholder="请输入身份证号码" aria-describedby="basic-addon1">
+        <input type="number" id="id_phone" class="form-control" placeholder="请输入联系电话" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="请输入籍贯" aria-describedby="basic-addon1">
+        <label>民族<input type="text" class="input-year"/></label>
+        <input type="text" class="form-control" placeholder="请输入详细地址" aria-describedby="basic-addon1">
+        <input type="number" id="bank_card" class="form-control" placeholder="请输入银行卡号" aria-describedby="basic-addon1">
+    </div>
+    <a class="first-header footer-next" href="protector-register2.html">
+        <h1>下一页</h1>
+    </a>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my-function-base.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/protector-register.js"></script>
+</body>
+</html>

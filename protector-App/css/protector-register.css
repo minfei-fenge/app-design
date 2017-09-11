@@ -1,0 +1,18 @@
+.input-group{
+    padding-left: 5%;
+}
+.input-group input{
+    margin-top: 1rem;
+    height: 3rem;
+}
+.input-group .form-control{
+    width: 95%;
+}
+.input-group span{
+    margin: 0 0.8rem;
+}
+.input-year{
+    border: 1px solid #ccc;
+    width: 22%;
+    text-indent: 10px;
+}

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3271d7aa-5319-4fbb-b911-23926c946d73" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/protector-App.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="protector-App.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="protector-App" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protector-App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protector-App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protector-App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\前端练习代码\（项目）\protector-App" />
+      <recent name="D:\前端练习代码\（项目）\protector-App\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3271d7aa-5319-4fbb-b911-23926c946d73" name="Default" comment="" />
+      <created>1504919145074</created>
+      <option name="number" value="Default" />
+      <updated>1504919145074</updated>
+    </task>
+    <task id="LOCAL-00001" summary="欢迎界面">
+      <created>1504919192443</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919192443</updated>
+    </task>
+    <task id="LOCAL-00002" summary="识别用户">
+      <created>1504919275705</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919275705</updated>
+    </task>
+    <task id="LOCAL-00003" summary="识别用户">
+      <created>1504919327376</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919327376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="用户登录">
+      <created>1504919456465</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919456465</updated>
+    </task>
+    <task id="LOCAL-00005" summary="护工注册">
+      <created>1504919532259</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919532259</updated>
+    </task>
+    <task id="LOCAL-00006" summary="护工注册2">
+      <created>1504919575681</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919575681</updated>
+    </task>
+    <task id="LOCAL-00007" summary="护工注册3">
+      <created>1504919613612</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919613612</updated>
+    </task>
+    <task id="LOCAL-00008" summary="筛选">
+      <created>1504919680242</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919680242</updated>
+    </task>
+    <task id="LOCAL-00009" summary="预约">
+      <created>1504919724305</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919724305</updated>
+    </task>
+    <task id="LOCAL-00010" summary="小圈子-话题1">
+      <created>1504919767216</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919767216</updated>
+    </task>
+    <task id="LOCAL-00011" summary="小圈子-话题2">
+      <created>1504919799264</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919799264</updated>
+    </task>
+    <task id="LOCAL-00012" summary="小圈子-文章1">
+      <created>1504919831610</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919831610</updated>
+    </task>
+    <task id="LOCAL-00013" summary="小圈子-文章2">
+      <created>1504919864805</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1504919864805</updated>
+    </task>
+    <task id="LOCAL-00014" summary="首页">
+      <created>1504920120579</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1504920120579</updated>
+    </task>
+    <task id="LOCAL-00015" summary="护工筛选结果页">
+      <created>1504920202380</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1504920202380</updated>
+    </task>
+    <task id="LOCAL-00016" summary="css文件">
+      <created>1504920264787</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1504920264787</updated>
+    </task>
+    <task id="LOCAL-00017" summary="字体">
+      <created>1504920323279</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1504920323279</updated>
+    </task>
+    <task id="LOCAL-00018" summary="图片">
+      <created>1504920356291</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1504920356291</updated>
+    </task>
+    <task id="LOCAL-00019" summary="js文件">
+      <created>1504920411942</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1504920411942</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4232026" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="欢迎界面" />
+    <MESSAGE value="识别用户" />
+    <MESSAGE value="用户登录" />
+    <MESSAGE value="护工注册" />
+    <MESSAGE value="护工注册2" />
+    <MESSAGE value="护工注册3" />
+    <MESSAGE value="筛选" />
+    <MESSAGE value="预约" />
+    <MESSAGE value="小圈子-话题1" />
+    <MESSAGE value="小圈子-话题2" />
+    <MESSAGE value="小圈子-文章1" />
+    <MESSAGE value="小圈子-文章2" />
+    <MESSAGE value="首页" />
+    <MESSAGE value="护工筛选结果页" />
+    <MESSAGE value="css文件" />
+    <MESSAGE value="字体" />
+    <MESSAGE value="图片" />
+    <MESSAGE value="js文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="js文件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2289157">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

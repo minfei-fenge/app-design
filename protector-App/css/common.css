@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+button,input{
+    outline: none;
+}
+a{
+    color: #000;
+}
+a:focus, a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.first-header{
+    width: 100%;
+    height: 8rem;
+    position: relative;
+    top: 0;
+    padding-top: 1px;
+}
+.pager li>a{
+    position: absolute;
+    left: 0;
+}
+.first-header ul{
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+.first-header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 8%;
+}
+.badge,.main-text,.first-header{
+    background: #5cb85c;
+}
+.glyphicon{
+    color: #5cb85c;
+}
+.main-text{
+    position: relative;
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 2%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+.main-text a,.footer-next h1 a,.main-text,.first-header{
+    color: #fff;
+}
+.main-text a{
+    float: right;
+    font-size: 1.5rem;
+}
+.footer-next{
+    height: 4rem;
+    margin-top: 0.6rem;
+    display: block;
+}
+.footer-next h1{
+    margin-top: 3%;
+    color: #fff;
+    margin-bottom: 0;
+}
+.push-img{
+    width: 100%;
+    height: 25%;
+    margin-top: 3%;
+    background: #5cb85c;
+    text-align: center;
+    overflow: hidden;
+}
+.push-photo{
+    margin-top: 30%;
+    margin-left: 30%;
+    display: none;
+}
+.replay-push{
+    width: 35%;
+    height: 70%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-left: 30%;
+    margin-top: 7%;
+    text-align: center;
+    font-size:1.5rem;
+    line-height: 100%;
+    padding-top: 13%;
+    display: block;
+}
+.replay-push img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+input[type=file]{
+    display: none;
+}
+.screen-border button{
+    border: none;
+}
+.protector-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.protector-bottom button{
+    text-align: center;
+}
+.protector-bottom div{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.protector-bottom a{
+    display: block;
+}
+.topic1-neck{
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 3%;
+    background: #5cb85c;
+}
+.topic1-neck button{
+    width: 50%;
+}
+.topic1-neck .selected{
+    background: #ccc;
+    color: #fff;
+}
+.topic-content .bottom{
+    bottom: 11%;
+}
+.topic-public{
+    width: 100%;
+    height: 20%;
+}

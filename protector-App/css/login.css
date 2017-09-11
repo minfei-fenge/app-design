@@ -1,0 +1,99 @@
+.input-group{
+    padding: 0 13px;
+}
+.input-group input{
+    width: 60%;
+    margin-top: 20px;
+    height: 40px;
+}
+.input-group #check{
+    margin-right: 0;
+}
+.input-group a{
+    margin: 0 20px;
+}
+#checkCode{
+    height: 30px;
+    width: 70px;
+}
+input{
+    outline: none;
+}
+.input-group input[type="button"]{
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 60px;
+    margin-bottom: 20px;
+}
+#input-check{
+    width: 30%;
+}
+#forget-password{
+    font-size: 1.5rem;
+    margin-left: 13px;
+}
+.input-group .form-control{
+    z-index: 0;
+}
+#po-up{
+    display: none;
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #5cb85c;
+}
+#po-up input{
+    border: 1px solid #ccc;
+    text-indent: 10px;
+    margin-top: 8%;
+    margin-left: 5%;
+    border-radius: 4px;
+}
+#po-up button{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 24%;
+    color: gray;
+    background: #fff;
+    margin-left: 7%;
+    height: 3.5rem;
+    vertical-align: middle;
+    text-align: center;
+}
+#po-up .input-group{
+    width: 100%;
+}
+#login-right{
+    border-radius: 4px;
+    margin-left: 13px;
+    width: 30%;
+    height: 3rem;
+    border: none;
+    margin-top: 20px;
+    background: #5cb85c;
+    font-size: 1.2rem;
+}
+#login-right a{
+    color: #fff;
+    margin: 0;
+}
+#po-up .change-password{
+    margin-top: 40px;
+    width: 91%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#login-mask{
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+.login a{
+    color: #fff;
+}

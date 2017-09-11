@@ -1,0 +1,85 @@
+.first-header ul li:last-child{
+    margin-right: 26px;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+.first-header ul li:first-child,.screen-header .pager li:first-child{
+    float: left;
+}
+.first-header span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 7rem;
+}
+.topic1-neck{
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 3%;
+    background: #5cb85c;
+}
+.topic1-neck button{
+    width: 50%;
+}
+.topic1-neck .selected{
+    background: #ccc;
+    color: #fff;
+}
+.btn-group-justified,.topic1-neck,.first-header ul{
+    width: 100%;
+}
+.topic1-hot{
+    background: #5cb85c;
+    color: #fff;
+    padding: 1% 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.topic1-hot .btn{
+    width: 5%;
+    padding: 0;
+}
+.media{
+    padding: 15px 10px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 4rem;
+}
+.media-middle span{
+    display: inline-block;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin: 0 1.5rem;
+    background: #ccc;
+}
+.media-body{
+    padding-top: 6px;
+    padding-left: 1rem;
+}
+.media-text-right h4,.media-text-right p{
+    text-align: center;
+}
+.media-text-right a{
+    position: absolute;
+    bottom: 0;
+}
+.media-left .more{
+    position: absolute;
+    right: 13px;
+    bottom: 0;
+}
+.my-topic{
+    height: 16%;
+    background: #5cb85c;
+    position: relative;
+}
+.my-topic a{
+    position: absolute;
+    color: #fff;
+    right: 13px;
+    bottom: 13px;
+}
+.protector-bottom{
+    position: relative;
+    margin-top: 3%;
+}

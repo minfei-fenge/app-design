@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>筛选</title>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/screen.css"/>
+</head>
+<body>
+    <div class="first-header">
+        <ul class="pager">
+            <li><a href="#">返回</a></li>
+            <div class="btn-group be-protected  screen-border" role="group" aria-label="">
+                <button type="button" class="btn btn-default">护工</button>
+                <button type="button" class="btn btn-default">被护理人</button>
+            </div>
+            <li><a href="#">搜索</a></li>
+        </ul>
+    </div>
+    <div class="btn-group btn-group-justified  screen-border" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                距离
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                护龄
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                好评
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                价格
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                筛选
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="information">
+        <ul>
+            <li><span>姓名</span><span>性别</span><span>年龄</span></li>
+            <li><span>籍贯</span><span>民族</span><span>文化程度</span></li>
+            <li><span>大众点评</span></li>
+        </ul>
+        <div class="personal-img"></div>
+    </div>
+    <div id="screen-content">
+        <div id="screen-address">详细地址</div>
+        <select name="block" id="block">
+            <option value="">香坊</option>
+            <option value="">南岗</option>
+            <option value="">道里</option>
+            <option value="">道外</option>
+        </select>
+        <span>区</span>
+        <select name="road" id="road">
+            <option value="">林兴</option>
+            <option value="">幸福</option>
+            <option value="">人民</option>
+        </select>
+        <span>路</span>
+        <input type="number"/><span>号</span>
+        <h4>身份信息认证
+            <button type="button" class="btn btn-success" id="id-card">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            </button>
+        </h4>
+        <button class="btn btn-primary" type="button">
+            级别 <span class="badge">4</span>
+        </button>
+        <button class="btn btn-primary" type="button">
+            护龄 <span class="badge">4</span>
+        </button>
+        <br/>
+        <button class="btn btn-primary" type="button">
+            累计服务量 <span class="badge">4</span>
+        </button>
+        <button class="btn btn-primary" type="button">
+            好评率 <span class="badge">4</span>
+        </button>
+        <h5><span>服务范围</span></h5>
+        <div class="btn-group screen-row screen-fixed" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按时间
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按地点
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按护理需求
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    按老人病症
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+        </div>
+        <span id="screen-h5"><span>服务价格：</span><span id="screen-price">360.00</span></span>
+        <ul class="media-list">
+            <li class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <button type="button" class="btn btn-success screen-users" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">用户123</h4>
+                    <p>服务细心周到，很有耐心，擅长和老人相处</p>
+                </div>
+            </li>
+            <li class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <button type="button" class="btn btn-success screen-users" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">用户123</h4>
+                    <p>服务细心周到，很有耐心，擅长和老人相处</p>
+                </div>
+            </li>
+            <li class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <button type="button" class="btn btn-success screen-users" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">用户123</h4>
+                    <p>服务细心周到，很有耐心，擅长和老人相处</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="first-header footer-next">
+        <a class="protector-back">上一页</a><a class="protector-next">保存</a>
+    </div>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.first-header{
+    height: 6rem;
+}
+.first-header ul li:last-child{
+    margin-right: 26px;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+.first-header ul li:first-child,.screen-header .pager li:first-child{
+    float: left;
+}
+.first-header span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 7rem;
+}
+.media{
+    position: relative;
+    margin-bottom: 2rem;
+}
+.media-middle span{
+    display: inline-block;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin: 0 1.5rem;
+    background: #ccc;
+}
+.media-body{
+    padding-top: 6px;
+    padding-left: 1rem;
+}
+.media-right .more{
+    float: right;
+    margin-right: 13px;
+}
+.my-content{
+    height: 10%;
+    position: relative;
+}
+.my-content .more{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+}

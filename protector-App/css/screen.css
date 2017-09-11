@@ -1,0 +1,146 @@
+.first-header{
+    position: relative;
+}
+.first-header ul{
+    width: 100%;
+}
+.first-header ul li:last-child{
+    float: right;
+    margin-right: 26px;
+}
+.screen-header .pager{
+    margin: 0 auto;
+    width: 100%;
+}
+.first-header ul li:first-child,.screen-header .pager li:first-child{
+    float: left;
+}
+.screen-header .pager li:last-child{
+    float: right;
+    position: absolute;
+    right: 0;
+}
+.screen-row button{
+    width: 50%;
+}
+.be-protected{
+    margin-top: -2%;
+}
+.be-protected button{
+    height: 4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.dropdown-menu li{
+    width: 70px;
+}
+.information{
+    background: #5cb85c;
+    color: #fff;
+    padding-top: 10px;
+    height: 100px;
+}
+#screen-address{
+    text-align: left;
+    padding: 10px 0;
+}
+input[type="number"]{
+    width: 50px;
+    margin: 2% 5px 0 2px;
+    text-indent: 10px;
+    outline: none;
+}
+.btn-primary{
+    background: #5cb85c;
+    width: 30%;
+    margin: 0 5px 10px 15px;
+}
+.btn-primary .badge{
+    color: #000;
+}
+#id-card{
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+#screen-content #screen-h5{
+    height: 2rem;
+}
+#screen-content #screen-price{
+    height: 2.5rem;
+}
+.glyphicon{
+    color: #fff;
+}
+h4 button{
+    width: 30px;
+    height: 30px;
+}
+.screen-fixed{
+    margin-bottom: 1rem;
+}
+.personal-img{
+    width: 90px;
+    height: 80px;
+    float: right;
+    margin-right: 1rem;
+    background: url("../img/1.jpg") no-repeat center;
+    background-size: contain;
+}
+.information ul{
+    width: 210px;
+    float: left;
+    margin-bottom: 0;
+}
+.information li:last-child{
+    margin-left: 13px;
+    list-style: none;
+    height: 24px;
+}
+.information span{
+    width: 58px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+#screen-content{
+    padding: 0 13px;
+    text-align: left;
+}
+#screen-content span{
+    margin-right: 5px;
+}
+#screen-content select{
+    width: 100px;
+    margin-right: 5px;
+    outline: none;
+    text-indent: 10px;
+}
+.screen-users{
+    height: 4rem;
+}
+.media{
+    margin-top: 0;
+}
+.media-list{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.h4, h4{
+    font-size: 16px;
+}
+.media-list .h4, h4{
+    color: grey;
+}
+.footer-next{
+    text-align: center;
+    line-height: 40px;
+    font-size: 2.5rem;
+}
+.footer-next a{
+    margin: 0 3%;
+    color: #fff;
+    font-weight: bolder;
+}

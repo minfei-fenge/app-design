@@ -1,0 +1,58 @@
+.first-header ul li:last-child{
+    margin-right: 26px;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+.first-header ul li:first-child,.screen-header .pager li:first-child{
+    float: left;
+}
+.first-header span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 7rem;
+}
+.topic-label{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.media-list{
+    padding: 0 3%;
+}
+.media{
+    position: relative;
+}
+.media-heading{
+    font-size: 14px;
+    margin-top: 5px;
+}
+h4 span{
+    margin-right: 10px;
+}
+.more{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+img{
+    width: 5rem;
+}
+
+
+input{
+    border: 1px solid #ccc;
+    height: 2.5rem;
+}
+input[type="text"]{
+    width: 70%;
+    text-indent: 10px;
+    font-size: 1.5rem;
+    margin-right: 2%;
+}
+input[type="submit"]{
+    width: 25%;
+}
+.h4, h4{
+    font-size: 16px;
+}
