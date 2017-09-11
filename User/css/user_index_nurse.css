@@ -5,6 +5,12 @@ body{
 .navbar{
     margin: 0;
 }
+/*搜索*/
+#search{
+    width: 20px;
+    background: url(../img/search.png) no-repeat center;
+    background-size: contain;
+}
 /*护工列表*/
 #nurse-list{
     margin: 0;
