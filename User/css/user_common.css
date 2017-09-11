@@ -1,4 +1,4 @@
-/*µ¼º½À¸*/
+/*å¯¼èˆªæ */
 .login-link{
     width: 20px;
     background: url(../img/register.png) no-repeat center;
@@ -11,7 +11,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-/*·ÖÒ³*/
+/*åˆ†é¡µ*/
 #bottom-nav{
     border-top: 1px solid lightgray;
     width: 100%;
@@ -35,20 +35,20 @@
     width: 100%;
     text-align: center;
 }
-/*È¥³ıµã»÷¹ıµÄÁ´½ÓµÄÏÂ»®Ïß*/
-a:focus{
+/*å»é™¤ç‚¹å‡»è¿‡çš„é“¾æ¥çš„ä¸‹åˆ’çº¿*/
+a:focus,a:hoverssssss{
     text-decoration: none;
 }
-/*ĞŞ¸Ä±íµ¥¿Ø¼şinputµÄ×ÖÌåÑÕÉ«*/
+/*ä¿®æ”¹è¡¨å•æ§ä»¶inputçš„å­—ä½“é¢œè‰²*/
 .form-control{
     color: lightgray;
 }
-/*È¥³ıinputµÄÀ¶É«½¹µã*/
+/*å»é™¤inputçš„è“è‰²ç„¦ç‚¹*/
 .form-control:focus{
     border-color: inherit;
     box-shadow: none;
 }
-/*È¥³ıbuttonµÄ»ÆÉ«½¹µã*/
+/*å»é™¤buttonçš„é»„è‰²ç„¦ç‚¹*/
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -57,14 +57,14 @@ a:focus{
 .btn.active.focus{
     outline: none;
 }
-/*¾¯¸æ¿ò*/
+/*è­¦å‘Šæ¡†*/
 .alert{
     position: fixed;
     width: 100%;
     top: 50px;
     z-index: 1;
 }
-/*ĞŞ¸Ä±êÇ©Ò³ÇĞ»»ÑùÊ½*/
+/*ä¿®æ”¹æ ‡ç­¾é¡µåˆ‡æ¢æ ·å¼*/
 #filter{
     background: white;
     width: 100%;

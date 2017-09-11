@@ -8,6 +8,9 @@
     border: 1px solid gray;
     border-radius: 50%;
 }
+a:focus,a:hover{
+    text-decoration: none;
+}
 #myAlert{
     position: fixed;
     width: 100%;
@@ -15,7 +18,7 @@
     z-index: 1;
     display: none;
 }
-/*修改上传照片按钮*/
+/*淇敼涓婁紶鐓х墖鎸夐挳*/
 .file {
     position: relative;
     display: inline-block;
