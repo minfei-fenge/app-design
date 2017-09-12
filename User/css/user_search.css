@@ -1,0 +1,22 @@
+#search-group{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 48px;
+    width: 80%;
+}
+#search-group input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    color: lightgray;
+    background: inherit;
+    font-size: 12px;
+    outline: none;
+    width: 80%;
+}
+#search-group .glyphicon-remove-circle{
+    width: 14px;
+    height: 14px;
+    margin-left: -20px;
+    display: none;
+}

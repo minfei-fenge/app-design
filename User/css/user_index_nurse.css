@@ -8,8 +8,9 @@ body{
 /*搜索*/
 #search{
     width: 20px;
-    background: url(../img/search.png) no-repeat center;
-    background-size: contain;
+    height: 20px;
+    margin-top: 10px;
+    background: url(../img/css_sprite.png) no-repeat -180px -85px;
 }
 /*护工列表*/
 #nurse-list{
