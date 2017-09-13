@@ -27,15 +27,11 @@ $(function(){
 
     //点击“保存”按钮：
     $("#save").on("click",function(){
-        history.go(-1);
+
     });
 
-    if( localStorage.getItem("span_select") ){
-        $(".body-health span:eq("+ localStorage.getItem("span_select") +")").addClass("selected").siblings().removeClass("selected");
-    }
     //身体状况：
-    $(".body-health span").on("click",function(){
+    $(".list-group-item span").on("click",function(){
         $(this).addClass("selected").siblings().removeClass("selected");
-        localStorage.setItem("span_select",$(this).index());
     });
 });

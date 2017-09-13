@@ -16,6 +16,10 @@
     width: 80px;
     height: 80px;
 }
+#nurse_detail_header h4{
+    display: inline-block;
+    margin: 10px 0;
+}
 .star{
     display: inline-block;
     width: 120px;
@@ -33,6 +37,24 @@
 }
 blockquote{
     margin-bottom: 0;
+}
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+#nurse_detail_content p:nth-child(1) .icon{
+    background: url(../img/css_sprite.png) no-repeat -185px -66px;
+}
+#nurse_detail_content p:nth-child(2) .icon:nth-child(1){
+    background: url(../img/css_sprite.png) no-repeat -50px -40px;
+}
+#nurse_detail_content p:nth-child(2) .icon:nth-child(2){
+    background: url(../img/css_sprite.png) no-repeat -50px -10px;
+}
+#nurse_detail_content p:nth-child(2) .icon:nth-child(3){
+    background: url(../img/css_sprite.png) no-repeat -82px -11px;
 }
 /*ндуб*/
 .article .row{

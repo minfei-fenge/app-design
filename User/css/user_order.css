@@ -74,3 +74,42 @@ input{
     height: 100%;
     line-height: 50px;
 }
+/*Í¼±ê*/
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+#order-choice li:nth-child(1) .icon{
+    background: url(../img/css_sprite.png) no-repeat -116px -94px;
+}
+#order-choice li:nth-child(2) .icon{
+    background: url(../img/css_sprite.png) no-repeat -82px -93px;
+}
+#order-choice li:nth-child(3) .icon{
+    background: url(../img/css_sprite.png) no-repeat -16px -64px;
+}
+#order-choice li:nth-child(4) .icon{
+    background: url(../img/css_sprite.png) no-repeat -48px -94px;
+}
+#service .icon:nth-child(1){
+    background: url(../img/css_sprite.png) no-repeat -150px -94px;
+}
+#service .icon:nth-child(2){
+    background: url(../img/css_sprite.png) no-repeat -16px -8px;
+}
+.alipay{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/css_sprite.png) no-repeat -14px -157px;
+    vertical-align: middle;
+}
+.wechat{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/css_sprite.png) no-repeat -68px -157px;
+    vertical-align: middle;
+}

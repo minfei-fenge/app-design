@@ -82,3 +82,35 @@ li{
     left: 0;
     top: 0;
 }
+/*Ê×Ò³Ð¡Í¼±ê*/
+.icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+#myOrder li:nth-child(1) .icon{
+    background: url(../img/css_sprite.png) no-repeat -180px -120px;
+}
+#myOrder li:nth-child(2) .icon{
+    background: url(../img/css_sprite.png) no-repeat -145px -120px;
+}
+#myOrder li:nth-child(3) .icon{
+    background: url(../img/css_sprite.png) no-repeat -110px -120px;
+}
+#myStatus li:nth-child(1) .icon{
+    background: url(../img/css_sprite.png) no-repeat -75px -120px;
+}
+#myStatus li:nth-child(2) .icon{
+    background: url(../img/css_sprite.png) no-repeat -45px -120px;
+}
+#myStatus li:nth-child(3) .icon{
+    background: url(../img/css_sprite.png) no-repeat -10px -120px;
+}
+#more-topic .icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/css_sprite.png) no-repeat -14px -92px;
+    vertical-align: middle;
+}

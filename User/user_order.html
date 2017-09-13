@@ -73,25 +73,25 @@
             </div>
         </div>
     </div>
-    <ul class="list-group">
+    <ul class="list-group" id="order-choice">
         <li class="list-group-item">
-            <img src="img/start_time.png" alt="开始时间"/>
+            <span class="icon"></span>
             请选择开始时间:&nbsp;
             <input type="date" id="keyword_time_min"/>
 
         </li>
         <li class="list-group-item">
-            <img src="img/end_time.png" alt="结束时间"/>
+            <span class="icon"></span>
             请选择结束时间:&nbsp;
             <input type="date" id="keyword_time_max"/>
         </li>
         <li class="list-group-item">
-            <img src="img/address.png" alt="地址"/>
+            <span class="icon"></span>
             <a href="#address" id="address">请选择地址</a>
             <span class="glyphicon glyphicon-chevron-right pull-right"></span>
         </li>
         <li class="list-group-item">
-            <img src="img/discount.png" alt="优惠券"/>
+            <span class="icon"></span>
             <a href="javascript:;">请选择优惠券</a>
             <span class="glyphicon glyphicon-chevron-right pull-right"></span>
         </li>
@@ -99,9 +99,9 @@
     <ul class="list-group">
         <li class="list-group-item" style="color: gray">付款方式</li>
         <li class="list-group-item" id="service">
-            <img src="img/sercive.png" alt=""/>
-            <span>服务后支付</span>
-            <img class="pull-right" src="img/check-none.png" alt=""/>
+            <span class="icon"></span>
+            服务后支付
+            <span class="icon pull-right"></span>
         </li>
     </ul>
     <div id="pay">
@@ -109,15 +109,13 @@
         <ul class="list-group">
             <li class="list-group-item" style="background: gray;color: white">支付方式</li>
             <li class="list-group-item pay-way">
-                <img src="img/alipay.png" alt=""/>
-                <span>支付宝</span>
+                <span class="alipay"></span>支付宝
                 <label class="pull-right">
                     <input type="radio" name="payWay" id="alipay" >
                 </label>
             </li>
             <li class="list-group-item pay-way">
-                <img src="img/wechat.png" alt=""/>
-                <span>微信</span>
+                <span class="wechat"></span>微信
                 <label class="pull-right">
                     <input type="radio" name="payWay" id="wechat" >
                 </label>
