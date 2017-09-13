@@ -15,18 +15,19 @@ $(function(){
     }
     //收起显示折叠菜单
     var $collapse = $("[data-toggle='collapse']");
-    var $collapseInfo =$("#more");
+    $collapse.prop("show",true);//show为true表示展开，false表示折叠
     $collapse.on("click",function(){
-        if($collapseInfo.attr("class")=="collapse"){
-            $(this).html("收起");
-        }else if($collapseInfo.attr("class")=="collapse in"){
-            $(this).html("显示");
+        if($(this).prop("show")){
+            $(this).html("显示"+"<span class='glyphicon glyphicon-pushpin'></span>");
+        }else{
+            $(this).html("收起"+"<span class='caret'></span>");
         }
+        $(this).prop("show",!$(this).prop("show"));
     });
 
     //点击“保存”按钮：
     $("#save").on("click",function(){
-        self.location = "user_contact.html";
+
     });
 
     //身体状况：

@@ -36,9 +36,24 @@
         <img class="col-xs-4" src="img/article-img.png" alt="文章图片"/>
     </div>
     <div class="social-contact container row">
-        <a href="#" class="glyphicon glyphicon-thumbs-up col-xs-4">100</a>
-        <a href="#" class="glyphicon glyphicon-comment col-xs-4">100</a>
-        <a href="#" class="glyphicon glyphicon-share-alt col-xs-4">转发</a>
+        <div>
+            <button type="button" class="btn btn-default btn-sm number-click" aria-label="Left Align">
+                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            </button>
+            <span>100</span>
+        </div>
+        <div>
+            <button type="button" class="btn btn-default btn-sm last-click" aria-label="Left Align">
+                <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+            </button>
+            <span>100</span>
+        </div>
+        <div>
+            <button type="button" class="btn btn-default btn-sm last-click" aria-label="Left Align">
+                <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+            </button>
+            <span>转发</span>
+        </div>
     </div>
 </div>
 <ul class="media-list">
@@ -139,15 +154,20 @@
     </li>
 
 </ul>
+
 <form id="comment-box" class="container" role="form">
+    <div class="alert alert-danger" role="alert">
+        <strong>请输入评论内容！</strong>
+    </div>
     <div class="form-group">
         <label for="my-comment">我的评论:</label><br>
-        <input type="text" class="form-control" id="my-comment" value="请输入评论">
-        <button type="submit" class="btn btn-default">发送</button>
+        <input type="text" class="form-control" id="my-comment" value="">
+        <button type="button" class="btn btn-default">发送</button>
     </div>
 </form>
 
 <script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/user_common.js"></script>
 <script src="js/user_index_circle.js"></script>
