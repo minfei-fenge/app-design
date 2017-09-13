@@ -29,9 +29,9 @@ $(function () {
     //标志位flag，false表示没选中
     $("#service").prop("flag",false).on("click",function(){
         if(!$(this).prop("flag")){
-            $("#service .pull-right").attr("src","img/checked.png");
+            $("#service .pull-right").css("backgroundPosition","-48px -8px");
         }else{
-            $("#service .pull-right").attr("src","img/check-none.png");
+            $("#service .pull-right").css("backgroundPosition","-16px -8px");
         }
         $(this).prop("flag",!$(this).prop("flag"));
     });

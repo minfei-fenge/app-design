@@ -45,23 +45,19 @@
         </li>
     </ul>
     <p class="container">更多被护理人信息（选填）
-        <a href="javascript:;" data-toggle="collapse" data-target="#more" class="pull-right">收起
-            <span class="caret"></span>
-        </a>
+        <a href="javascript:;" data-toggle="collapse" data-target="#more" class="pull-right">收起</a>
     </p>
     <div id="more" class="collapse in">
         <ul class="list-group">
             <li class="list-group-item">性别：
-                <img src="img/male.png" alt=""/>男
-                <img src="img/female.png" alt=""/>女
+                <label><input type="radio" name="sex"/>男</label>
+                <label><input type="radio" name="sex"/>女</label>
             </li>
             <li class="list-group-item">
-                年龄：
-                <input type="text" value="50"/>
+                <label>年龄：<input type="text" value="50"/></label>
             </li>
             <li class="list-group-item">
-                联系电话：
-                <input type="text" value="+86"/>
+                <label>联系电话：<input type="text" value="+86"/></label>
             </li>
             <li class="list-group-item">
                 身体状况：
@@ -70,8 +66,7 @@
                 <span class="label label-default">不能自理</span>
             </li>
             <li class="list-group-item">
-                备注：
-                <textarea class="form-control" rows="3">老人护理需求，固定电话等</textarea>
+                备注：<textarea class="form-control" rows="3">老人护理需求，固定电话等</textarea>
             </li>
         </ul>
     </div>

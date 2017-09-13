@@ -36,6 +36,8 @@ a:focus,a:hover{
     left: 0;
     top: 0;
     opacity: 0;
+    width: 80px;
+    height: 28px;
 }
 /*----------------------*/
 .list-group-item input{
@@ -59,4 +61,8 @@ body{
 }
 .list-group-item .selected{
     background: #5bc0de;
+}
+#more label{
+    margin: 0 10px 0 0;
+    font-weight: normal;
 }

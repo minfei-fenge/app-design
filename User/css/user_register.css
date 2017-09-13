@@ -11,15 +11,13 @@
     display: inline-block;
     width: 14px;
     height: 16px;
-    background: url(../img/verify_code.png) no-repeat center;
-    background-size: cover;
+    background: url(../img/css_sprite.png) no-repeat -84px -38px;
 }
 .user-psd2{
     display: inline-block;
     width: 14px;
     height: 16px;
-    background: url(../img/user_psd2.png) no-repeat center;
-    background-size: cover;
+    background: url(../img/css_sprite.png) no-repeat -18px -36px;
 }
 /*È¥³ýinput±ß¿ò*/
 #user-register-form input{
@@ -36,6 +34,14 @@
     top: 15px;
     right: 5px;
     display: none;
+    width: 18px;
+    height: 18px;
+}
+.checked{
+    background: url(../img/css_sprite.png) no-repeat -48px -8px;
+}
+.checked-false{
+    background: url(../img/css_sprite.png) no-repeat -80px -10px;
 }
 /*Ð¡ÑÛ¾¦*/
 .glyphicon-eye-open,.glyphicon-eye-close{
