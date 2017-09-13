@@ -15,6 +15,7 @@
         <div class="navbar-header">
             <a href="user_login.html" class="navbar-brand login-link"></a>
             <span class="navbar-brand navbar-title">护工</span>
+            <a href="user_search.html" class="navbar-brand pull-right" id="search"></a>
         </div>
     </div>
 </nav>
@@ -146,5 +147,10 @@
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/user_common.js"></script>
+<script>
+    $("#nurse-list .media").on("click",function(){
+        self.location = "user_nurseDetail.html";
+    });
+</script>
 </body>
 </html>

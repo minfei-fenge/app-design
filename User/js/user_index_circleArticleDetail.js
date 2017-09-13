@@ -1,10 +1,10 @@
 $(function(){
 
     //载入cookie
-    if( !$.cookie("thumbs") ){
+    if($.cookie("thumbs") == ""){
         $.cookie("thumbs","100",{expires: 100});
     };
-    if( !$.cookie("comments") ){
+    if($.cookie("comments") == ""){
         $.cookie("comments","100",{expires: 100});
     };
     if($.cookie("$bClick") == ""){
@@ -40,6 +40,7 @@ $(function(){
 
 
     //点赞
+
     $(".number-click").on("click",function(){
         if( $.cookie("$bClick") == "false" ){
             $(this).addClass("btn-default").css("color","#000");
