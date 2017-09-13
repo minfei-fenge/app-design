@@ -1,4 +1,3 @@
-
 $(function(){
     //取消（返回上一页）
     $(".navbar-brand").eq(0).on("click",function(){
@@ -38,16 +37,21 @@ $(function(){
             $(that).siblings("img").attr("src",this.result);
         };
     }
-    /*$(".upload").on("change",fileUpLoad);
-    $(".upload").on("change",function(){
-        //添加dom结构
-        var $upload = '<div class="upload-picture">'+
-            '<img src="img/publish_upload_img.png" alt="上传照片" />'+
-            '<input class="upload" type="file" accept="image/!*" multiple>'+
-        '</div>';
-        $("#publish").append($upload);
-    });*/
     //对于后加入的元素-->事件委托
-    
+    var number = 1;
+    $("#publish").on("change",".upload",function(){
+        fileUpLoad.call(this);//改变this的指向
+        //添加dom结构(限制9张图片)
+        if(number<9){
+            var $upload = '<div class="upload-picture col-xs-4">'+
+                '<img src="img/publish_upload_img.png" alt="上传照片" />'+
+                '<input class="upload" type="file" accept="image/!*" multiple>'+
+                '</div>';
+            var imgWidth = $(".upload-picture").css("width");
+            $(".upload-picture").css("height",imgWidth);
+            $("#publish").append($upload);
+            number++;
+        }
+    });
 
 });
