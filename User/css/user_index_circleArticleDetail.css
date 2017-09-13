@@ -30,8 +30,28 @@ body{
 }
 /*社交*/
 .article .social-contact{
+    padding: 0;
     padding-bottom: 10px;
     text-align: center;
+}
+.social-contact>div{
+    float: left;
+    width: 33%;
+}
+.social-contact>div button{
+    border: none;
+    background: #fff;
+}
+.alert-danger{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5%;
+    line-height: 5%;
+    display: none;
+}
+.social-contact>div button:active{
+    color: #337ab7;
 }
 /*文章评论*/
 .media-list{
@@ -56,6 +76,7 @@ body{
     background: lightgray;
     position: fixed;
     bottom: 0;
+    z-index: 2;
     display: none;
 }
 #comment-box input{
