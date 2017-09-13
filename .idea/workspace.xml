@@ -1,56 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7abb253-0776-4de9-905e-21b1fe833514" name="Default" comment="css精灵">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User/js/user_nurseDetail.js" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\address.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\alipay.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\check-none.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\checked-false.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\checked.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\discount.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\end_time.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\female.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\female_choose.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_hotTopic.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_myorder1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_myorder2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_myorder3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_mystatus1.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_mystatus2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\index_mystatus3.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\male.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\male_choose.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\nurse_id_card.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\radio.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\radio_checked.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\register.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\search.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\sercive.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\sex.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\show.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\start_time.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\user_psd2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\verify_code.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\app-design\User\img\wechat.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_add.css" afterPath="$PROJECT_DIR$/User/css/user_add.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_add.html" afterPath="$PROJECT_DIR$/User/user_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/js/user_add.js" afterPath="$PROJECT_DIR$/User/js/user_add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_common.css" afterPath="$PROJECT_DIR$/User/css/user_common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_index.css" afterPath="$PROJECT_DIR$/User/css/user_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_index.html" afterPath="$PROJECT_DIR$/User/user_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/js/user_index_circle.js" afterPath="$PROJECT_DIR$/User/js/user_index_circle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_index_circleTopicDetail.css" afterPath="$PROJECT_DIR$/User/css/user_index_circleTopicDetail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_index_circleTopicDetail.html" afterPath="$PROJECT_DIR$/User/user_index_circleTopicDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_login.css" afterPath="$PROJECT_DIR$/User/css/user_login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_login.html" afterPath="$PROJECT_DIR$/User/user_login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_nurseDetail.css" afterPath="$PROJECT_DIR$/User/css/user_nurseDetail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_nurseDetail.html" afterPath="$PROJECT_DIR$/User/user_nurseDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_order.css" afterPath="$PROJECT_DIR$/User/css/user_order.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_order.html" afterPath="$PROJECT_DIR$/User/user_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/js/user_order.js" afterPath="$PROJECT_DIR$/User/js/user_order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_register.css" afterPath="$PROJECT_DIR$/User/css/user_register.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_register.html" afterPath="$PROJECT_DIR$/User/user_register.html" />
+    <list default="true" id="a7abb253-0776-4de9-905e-21b1fe833514" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/css/user_search.css" afterPath="$PROJECT_DIR$/User/css/user_search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/user_search.html" afterPath="$PROJECT_DIR$/User/user_search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User/js/user_search.js" afterPath="$PROJECT_DIR$/User/js/user_search.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="app-design.iws" />
@@ -71,7 +25,53 @@
     <favorites_list name="app-design" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="user_search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User/js/user_search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_search.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/User/user_search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7119857">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_search.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User/css/user_search.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_index_nurse.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User/css/user_index_nurse.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,11 +94,8 @@
         <option value="$PROJECT_DIR$/User/user_index_me.html" />
         <option value="$PROJECT_DIR$/User/css/user_index_nurseDetail.css" />
         <option value="$PROJECT_DIR$/User/user_index_nurseDetail.html" />
-        <option value="$PROJECT_DIR$/User/css/user_search.css" />
         <option value="$PROJECT_DIR$/User/css/user_index_nurse.css" />
-        <option value="$PROJECT_DIR$/User/js/user_search.js" />
         <option value="$PROJECT_DIR$/User/user_index_nurse.html" />
-        <option value="$PROJECT_DIR$/User/user_search.html" />
         <option value="$PROJECT_DIR$/User/user_index_circle.html" />
         <option value="$PROJECT_DIR$/User/css/user_publish.css" />
         <option value="$PROJECT_DIR$/User/user_publish.html" />
@@ -122,6 +119,9 @@
         <option value="$PROJECT_DIR$/User/css/user_nurseDetail.css" />
         <option value="$PROJECT_DIR$/User/user_index.html" />
         <option value="$PROJECT_DIR$/User/css/user_index.css" />
+        <option value="$PROJECT_DIR$/User/js/user_search.js" />
+        <option value="$PROJECT_DIR$/User/css/user_search.css" />
+        <option value="$PROJECT_DIR$/User/user_search.html" />
       </list>
     </option>
   </component>
@@ -217,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,6 +297,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a7abb253-0776-4de9-905e-21b1fe833514" name="Default" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1505100601879</created>
       <option name="number" value="Default" />
       <updated>1505100601879</updated>
@@ -331,15 +332,34 @@
       <option name="project" value="LOCAL" />
       <updated>1505227719062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="css精灵">
+      <created>1505301034973</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505301034973</updated>
+    </task>
+    <task id="LOCAL-00007" summary="关注">
+      <created>1505301328008</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505301328008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="关注">
+      <created>1505301370909</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505301370909</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -350,7 +370,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -375,7 +394,9 @@
     <MESSAGE value="新增用户详情页" />
     <MESSAGE value="新增护工详情页" />
     <MESSAGE value="新增搜索界面和发表界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增搜索界面和发表界面" />
+    <MESSAGE value="css精灵" />
+    <MESSAGE value="关注" />
+    <option name="LAST_COMMIT_MESSAGE" value="关注" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -456,52 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/css/user_index_nurse.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46700507">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/js/user_search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15566836">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/css/user_search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72758037">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/user_index_nurse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5474061">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/user_search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48121646">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,9 +727,56 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User/img/show.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/User/js/user_search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/user_index_nurse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5796064">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/css/user_index_nurse.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/css/user_search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/user_search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7119857">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
