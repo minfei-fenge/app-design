@@ -27,7 +27,7 @@ $(function(){
 
     //点击“保存”按钮：
     $("#save").on("click",function(){
-
+        history.go(-1);
     });
 
     if( localStorage.getItem("span_select") ){
