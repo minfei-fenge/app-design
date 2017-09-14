@@ -1,17 +1,19 @@
 $(function(){
-
+    console.log($.cookie("thumbs"));
     //载入cookie
-    if($.cookie("thumbs") == ""){
+    if($.cookie("thumbs") == null){
         $.cookie("thumbs","100",{expires: 100});
-    };
-    if($.cookie("comments") == ""){
+        console.log($.cookie("thumbs"));
+    }
+
+    if($.cookie("comments") == null){
         $.cookie("comments","100",{expires: 100});
-    };
-    if($.cookie("$bClick") == ""){
+    }
+    if($.cookie("$bClick") == null){
         $.cookie("$bClick","true",{expires: 100});
-    };
-    ($(".number-click").next())[0].innerHTML = $.cookie("thumbs");
-    ($(".last-click").next())[0].innerHTML =  $.cookie("comments");
+    }
+    $(".number-click").siblings("span").html($.cookie("thumbs"));
+    $(".last-click").siblings("span").html($.cookie("comments"));
 
     //评论
     var $input = $("#comment-box .form-group input");
@@ -48,10 +50,10 @@ $(function(){
             $.cookie("$bClick","true" ,{expires: 100});
         }else{
             $(this).removeClass("btn-default").css("color","#337ab7");
-            ($(this).next())[0].innerHTML = parseInt($.cookie("thumbs"))+1;
+            $(this).siblings("span").html(parseInt($.cookie("thumbs"))+1);
             $.cookie("$bClick","false" ,{expires: 100});
-        };
-        $.cookie("thumbs",($(this).next())[0].innerHTML,{expires: 100});
+        }
+
     });
 
 });
