@@ -30,8 +30,12 @@ $(function(){
 
     });
 
+    if( localStorage.getItem("span_select") ){
+        $(".body-health span:eq("+ parseInt(localStorage.getItem("span_select" ))+")").addClass("selected").siblings().removeClass("selected");
+    }
     //身体状况：
     $(".list-group-item span").on("click",function(){
         $(this).addClass("selected").siblings().removeClass("selected");
+        localStorage.setItem("span_select",$(this).index());
     });
 });
