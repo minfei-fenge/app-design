@@ -1,16 +1,15 @@
 html,body{
     width: 100%;
     height: 100%;
-}
-#register-container{
-    width: 100%;
-    height: 100%;
     background: #E1FFFC;
 }
-#register-left{
+.navbar-brand{
+    color: white;
+}
+#left{
     margin-left: 5%;
 }
-a{
+#left,#right{
     display: inline-block;
     width: 40%;
     height: 35%;

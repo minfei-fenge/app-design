@@ -6,7 +6,7 @@ $(function(){
             show: true
         });
         $("#not-agree").on("click",function(){
-            self.location = "user_login.html";
+            self.location = "login.html";
         });
         $("#agree").on("click",function(){
             localStorage.setItem("firstLogin","true");
