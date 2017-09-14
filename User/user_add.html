@@ -11,18 +11,11 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-inverse" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand glyphicon glyphicon-chevron-left">新建联系人</a>
+            <a href="javascript:;" class="navbar-brand glyphicon glyphicon-chevron-left"></a>
         </div>
     </nav>
-    <div class="alert alert-warning" id="myAlert">
-        <a href="#" class="close" data-dismiss="alert">
-            &times;
-        </a>
-        <strong>警告！</strong>
-        <span>您的网络连接有问题。</span>
-    </div>
     <div id="upload-picture">
         <img id="click" src="img/old_portrait_default.png" alt="上传照片" class="center-block" />
         <a href="javascript:;" class="file">选择文件
@@ -33,15 +26,15 @@
     <ul class="list-group">
         <li class="list-group-item">
             <span class="glyphicon glyphicon-user"></span>
-            <input type="text" value="请填写称呼"/>
+            <input type="text" name="contactCall" value="请填写称呼"/>
         </li>
         <li class="list-group-item">
             <span class="glyphicon glyphicon-map-marker"></span>
-            <input type="text" value="请填写小区/医院"/>
+            <input type="text" name="contactAddress" value="请填写小区/医院"/>
         </li>
         <li class="list-group-item">
             <span class="glyphicon glyphicon-home"></span>
-            <input type="text" value="请填写详细地址"/>
+            <input type="text" name="contactHome" value="请填写详细地址"/>
         </li>
     </ul>
     <p class="container">更多被护理人信息（选填）

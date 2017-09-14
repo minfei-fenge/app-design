@@ -1,4 +1,18 @@
 $(function(){
+
+    /*根据上一页点击的是“编辑”或“添加”，修改本页状态*/
+    if(localStorage.getItem("contact_next")=="edit"){
+        $(".glyphicon-chevron-left").html("编辑联系人");
+        //以下相关值应从数据库读取
+        $("#upload-picture img").attr("src","img/old_portrait_default.png");
+        $("input[name=contactCall]").val("张三");
+        $("input[name=contactAddress]").val("哈尔滨市医院");
+        $("input[name=contactHome]").val("哈尔滨市香坊区和兴路");
+    }
+    if(localStorage.getItem("contact_next")=="add"){
+        $(".glyphicon-chevron-left").html("新建联系人");
+        $("#upload-picture img").attr("src","img/user_portrait_default.png");
+    }
     /*上传照片*/
     document.getElementById("upload").addEventListener("change",function(){
         var files = this.files;
@@ -9,18 +23,14 @@ $(function(){
             document.getElementById("click").src = this.result;
         };
     });
-    /*保存头像*/
-    if(localStorage.getItem("user_add")){
-        $("#upload-picture img").attr("src",localStorage.getItem("user_add"));
-    }
     //收起显示折叠菜单
     var $collapse = $("[data-toggle='collapse']");
     $collapse.prop("show",true);//show为true表示展开，false表示折叠
     $collapse.on("click",function(){
         if($(this).prop("show")){
-            $(this).html("显示"+"<span class='glyphicon glyphicon-pushpin'></span>");
+            $(this).html("显示");
         }else{
-            $(this).html("收起"+"<span class='caret'></span>");
+            $(this).html("收起");
         }
         $(this).prop("show",!$(this).prop("show"));
     });
@@ -30,12 +40,12 @@ $(function(){
         history.go(-1);
     });
 
-    if( localStorage.getItem("span_select") ){
-        $(".body-health span:eq("+ parseInt(localStorage.getItem("span_select" ))+")").addClass("selected").siblings().removeClass("selected");
-    }
     //身体状况：
     $(".list-group-item span").on("click",function(){
         $(this).addClass("selected").siblings().removeClass("selected");
         localStorage.setItem("span_select",$(this).index());
     });
+    if( localStorage.getItem("span_select") ){
+        $(".body-health span:eq("+ parseInt(localStorage.getItem("span_select" ))+")").addClass("selected").siblings().removeClass("selected");
+    }
 });

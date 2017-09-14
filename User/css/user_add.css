@@ -1,6 +1,6 @@
 #upload-picture{
     width: 100%;
-    margin-bottom: 10px;
+    margin: 20px 0 10px 0;
 }
 #upload-picture img{
     width: 60px;
@@ -48,8 +48,8 @@ a:focus,a:hover{
     text-indent: 5px;
 }
 body{
+    padding: 50px 0;
     position: relative;
-    padding-bottom: 50px;
     bottom: 0;
 }
 #save{
