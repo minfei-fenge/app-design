@@ -32,6 +32,9 @@ body{
     transform: translateX(-50%);
     margin-top: 10px;
 }
+.file:hover{
+    text-decoration: none;
+}
 .file input {
     position: absolute;
     left: 0;

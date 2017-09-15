@@ -62,12 +62,16 @@
                 </li>
                 <li class="list-group-item">
                     <span class="glyphicon glyphicon-phone"></span>
-                    <input type="text" class="form-control" name="telephone" value="请填写联系电话"/>
+                    <input type="text" class="form-control" name="telephone" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="11" value="请填写联系电话"/>
+                    <span class="checked"></span>
+                    <span class="checked-false"></span>
                 </li>
                 <li class="list-group-item">
                     <span class="icon id-card"></span>
-                    <input type="text" class="form-control" name="idCard" value="请输入身份证号"
+                    <input type="text" class="form-control" name="idCard" maxlength="18" value="请输入身份证号"
                            id="id-card"/>
+                    <span class="checked"></span>
+                    <span class="checked-false"></span>
                 </li>
             </ul>
         </div>
@@ -103,27 +107,27 @@
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <div class="label-group">服务时长:&nbsp;
+                    <div class="range">服务时长:&nbsp;
                         <span class="label label-default">日护</span>
                         <span class="label label-default">周护</span>
                         <span class="label label-default">月护</span>
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <div class="label-group">服务地点:&nbsp;
+                    <div class="range">服务地点:&nbsp;
                         <span class="label label-default">居家</span>
                         <span class="label label-default">医院</span>
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <div class="label-group">护理范围:&nbsp;
+                    <div class="range">护理范围:&nbsp;
                         <span class="label label-default">助餐</span>
                         <span class="label label-default">助医</span>
                         <span class="label label-default">助洁</span>
                     </div>
                 </li>
                 <li class="list-group-item">
-                    <div class="label-group">老人病症:&nbsp;
+                    <div class="range">老人病症:&nbsp;
                         <span class="label label-default">自理</span>
                         <span class="label label-default">半自理</span>
                         <span class="label label-default">不能自理</span>
@@ -145,21 +149,21 @@
                     <span>请上传身份证正面照</span>
                     <div class="protector-upload thumbnail">
                         <img src="img/protector_front.png" alt="上传照片"/>
-                        <input class="upload" type="file" name="idFront" accept="image/*" multiple>
+                        <input class="upload imgload" type="file" name="idFront" accept="image/*" multiple>
                     </div>
                 </div>
                 <div class="container">
                     <span>请上传身份证反面照</span>
                     <div class="protector-upload thumbnail">
                         <img src="img/protector_back.png" alt="上传照片"/>
-                        <input class="upload" type="file" name="idBack" accept="image/*" multiple>
+                        <input class="upload imgload" type="file" name="idBack" accept="image/*" multiple>
                     </div>
                 </div>
                 <div class="container">
                     <span>请上传资格证书</span>
                     <div class="protector-upload thumbnail">
                         <img src="img/qualification.png" alt="上传照片"/>
-                        <input class="upload" type="file" name="author" accept="image/*" multiple>
+                        <input class="upload imgload" type="file" name="author" accept="image/*" multiple>
                     </div>
                 </div>
             </div>

@@ -96,3 +96,18 @@ a:focus{
     background: #f8f8f8;
     z-index: 1;
 }
+
+.checked,.checked-false{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    display: none;
+    width: 18px;
+    height: 18px;
+}
+.checked{
+    background: url(../img/css_sprite.png) no-repeat -48px -8px;
+}
+.checked-false{
+    background: url(../img/css_sprite.png) no-repeat -80px -10px;
+}
